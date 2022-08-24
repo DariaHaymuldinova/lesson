@@ -4,7 +4,7 @@ int[] generateArray(int Length = 10, int min = 100, int max = 999)
     int[] result = new int[Length];
     for (int i = 0; i < result.Length; i++)
     {
-        result[i] = new Random().Next(min, max);
+        result[i] = new Random().Next(min, max+1);
     }
     return result;
 }
